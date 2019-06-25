@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: pvclaim-nfs
+  name: pvc-wordpress
 spec:
   accessModes:
     - ReadWriteMany
