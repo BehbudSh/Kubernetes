@@ -1,9 +1,10 @@
 apiVersion: v1
 kind: PersistentVolume
 metadata:
-  name: pv-mysql
+  name: mysql-persistent-storage
   labels:
-    type: labels 
+    app: wordpress
+    tier: mysql 
 spec:
   capacity:
     storage: 1Gi
