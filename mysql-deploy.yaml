@@ -39,7 +39,7 @@ spec:
           valueFrom:
             secretKeyRef:
               name: mysql-pass        # the one generated before in secret.yml
-              key: YmVoYnVk
+              key: password
         ports:
         - containerPort: 3306
           name: mysql
