@@ -15,5 +15,5 @@ spec:
       - path: "/"
         backend:
           serviceName: wordpress
-          servicePort: 80
+          servicePort: 31252
       
