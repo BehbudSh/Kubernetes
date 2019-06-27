@@ -45,7 +45,7 @@ spec:
           name: mysql
         volumeMounts:
         - name: mysql-persistent-storage  # which data will be stored
-          mountPath: "/var/lib/mysql"
+          mountPath: "/srv/nfs/kubedata"
       volumes:
       - name: mysql-persistent-storage    # PVC
         persistentVolumeClaim:
